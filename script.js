@@ -8,47 +8,47 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Como a fome se manifesta como consequência direta de um conflito armado?",
+        enunciado:   "Qual é a principal característica do boto cor de rosa de acordo com o folclore brasileiro?",
         alternativas: [
             {
-                texto:"A) A fome surge devido à destruição de infraestruturas agrícolas e sistemas de distribuição de alimentos, que limita o acesso da população aos recursos alimentares.",
-                afirmacao:" Em guerras, as infraestruturas essenciais, como fazendas, armazéns e redes de distribuição de alimentos, são frequentemente destruídas ou danificadas, dificultando o acesso da população a alimentos e provocando fome."
-
+                texto:"A) Ele é conhecido por transformar-se em um homem encantador para seduzir mulheres.",
+                afirmacao:" No folclore, o boto cor de rosa é frequentemente descrito como um ser que se transforma em um homem atraente para seduzir mulheres, especialmente em festas à noite."
             },
             {
-                texto: "B) A fome é causada exclusivamente pelo bloqueio internacional das fronteiras e a proibição de importação de alimentos.",
-                afirmacao:"Embora bloqueios internacionais possam afetar a disponibilidade de alimentos,a fome em contextos de guerra é frequentemente causada por danos diretos à infraestrutura local e não apenas por bloqueios internacionais."
+                texto: "B) Ele é famoso por ser um protetor das crianças que brincam perto da água.",
+                afirmacao:"Embora o boto seja uma figura importante no folclore, a ideia de proteger crianças não é uma característica central associada a ele.)."
+                
 
             },
             
         ]
     },
     {
-        enunciado: "Qual é um dos efeitos da fome prolongada em uma população durante um conflito?",
+        enunciado: "Qual é a principal consequência de um encontro com o boto cor de rosa, segundo a tradição?",
         alternativas: [
             {
-                texto:"A) O aumento da mortalidade infantil e a deterioração da saúde geral da população, com riscos elevados de doenças e desnutrição.",
-                afirmacao:" A fome prolongada durante um conflito pode levar a uma alta taxa de mortalidade infantil e a uma deterioração geral da saúde, devido à desnutrição e à maior vulnerabilidade a doenças"
+                texto:"A) A mulher que encontra o boto pode engravidar e ter um filho com ele.",
+                afirmacao:"Segundo a lenda, uma mulher que tem um encontro com o boto pode engravidar e, às vezes, o boto desaparece depois do evento, deixando a mulher com um filho.)"
             },
             {
-                texto:"B) A criação de novas oportunidades econômicas para a população afetada, como o surgimento de mercados paralelos.",
-                afirmacao:"Enquanto mercados paralelos podem surgir, a fome não é uma causa de oportunidades econômicas positivas; pelo contrário, ela geralmente resulta em graves problemas de saúde e sociais."
+                texto:"B) A pessoa que encontra o boto ganha um desejo concedido.",
+                afirmacao:"No folclore, o boto não é conhecido por conceder desejos; seu papel é mais associado a encontros românticos e suas consequências.)."
             }
             
             
         ]
     },
     {
-        enunciado: "Como a comunidade internacional pode ajudar a mitigar os efeitos da fome em regiões afetadas por conflitos?",
+        enunciado: "Qual é a origem das lendas sobre o boto cor de rosa na cultura amazônica?",
     
         alternativas: [
             {
-                texto:"A) Através do fornecimento de ajuda humanitária, como alimentos e medicamentos, e do apoio à reconstrução das infraestruturas essenciais.",
-                afirmacao:" A ajuda humanitária é crucial para aliviar a fome durante conflitos,fornecendo alimentos, medicamentos e apoio para a reconstrução das infraestruturas danificadas."
+                texto:"A) Elas surgiram como uma explicação para desaparecimentos e eventos misteriosos na comunidade ribeirinha.",
+                afirmacao:"As lendas do boto muitas vezes surgem como explicações para eventos misteriosos ou desaparecimentos inexplicáveis nas comunidades ribeirinhas da Amazônia.)."
             },
             {
-                texto:"B) Impondo sanções econômicas adicionais às regiões afetadas para pressionar os governos a cessar o conflito.",
-                afirmacao:"Embora sanções possam ser uma ferramenta política, elas geralmente agravam a situação humanitária e não ajudam a mitigar diretamente a fome em regiões afetadas por conflitos."
+                texto:"B) Elas foram criadas para ensinar crianças sobre os perigos de nadar em águas profundas.",
+                afirmacao:"Embora a lenda possa ter algum valor educativo, o foco principal das histórias do boto não é especificamente ensinar sobre os perigos de nadar, mas sim sobre encontros românticos e consequências sociais."
             },
             
         ]
