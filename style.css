@@ -1,38 +1,44 @@
-:root{
-    --cor-fundo: #000000 ;
-    --cor-principal: #f0bce7 ;
-    --cor-secundaria: #0a0209; 
-    --cor-destaque: #000000;
-    --cor-texto: #ffffff;
-
-}
-
-body {
+:root {
+    --cor-fundo: #01080E;
+    --cor-principal: #1c1f3d ;
+    --cor-secundaria: #1f2233;
+    --cor-destaque: #e69448;
+    --cor-texto: #71e3f7;
+  }
+  body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-}
-
-.caixa-principal{
+  }
+  .caixa-principal{
     background-color: var(--cor-principal);
     width: 90%;
-    max-width: 600px;
     text-align: center;
     padding: 20px;
-}
-
-h1{
+  }
+  .caixa-secundaria{
+    background-color:  var(--cor-principal);
+    width: 90%;
+    text-align: center;
+    padding: 20px;
+  }
+  h1{
     color: var(--cor-destaque);
-}
+   }
 
 button {
-    background-color: var(--cor-secundaria);
-    color: var(--cor-texto);
-    border: none;
-    border-radius: 15px;
-    padding: 15px;
-    transition: background-color 0.3s;
+  background-color: var(--cor-principal);
+  color: var(--cor-destaque);
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--cor-destaque);
+  color: var(--cor-secundaria);
 }
